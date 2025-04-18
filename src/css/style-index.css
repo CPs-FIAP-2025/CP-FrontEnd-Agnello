@@ -62,3 +62,53 @@ img {
 .nav a:hover {
     color: #d4af7f;
 }
+
+#destaque {
+    background: linear-gradient(90deg, #490000, #8d1f34, #490000);
+    color: #fff;
+    padding: 5rem;
+    text-align: center;
+}
+
+#destaque h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+#destaque p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-destaque {
+    background-color: #d4af7f;
+    color: #490000;
+    padding: 0.9rem 2rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+
+}
+
+.btn-destaque:hover {
+    background-color: #a17f51;
+}
+
+
+#catalogo {
+    padding: 4rem 0;
+}
+
+#catalogo h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #8d1f34;
+    font-weight: 750;
+    margin-bottom: 3rem;
+}
+
