@@ -167,3 +167,82 @@ img {
     background-color: #8d1f34;
 }
 
+/* Rodapé */
+#rodape {
+    background: linear-gradient(90deg, #270000, #5a1421, #270000);
+    color: #fff;
+    padding: 3rem 2rem 2rem;
+    margin-top: 4rem;
+}
+
+#footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.coluna {
+    flex: 1 1 250px;
+}
+
+.coluna h4 {
+    font-size: 1.2rem;
+    color: #d4af7f;
+    margin-bottom: 1rem;
+}
+
+.coluna ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.coluna ul li {
+    margin-bottom: 0.5rem;
+}
+
+.coluna ul li a {
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.coluna ul li a:hover {
+    color: #d4af7f;
+}
+
+#copy {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #f1f1f1;
+    margin-top: 30px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    #header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #topo {
+        position: relative;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    #destaque {
+        display: none;
+    }
+
+    .produtos {
+        grid-template-columns: 1fr;
+    }
+
+    #sobre {
+        display: none;
+    }
+}
