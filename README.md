@@ -4,7 +4,7 @@
 
 O site simula uma loja online para a Vinharia Agnello, trazendo um layout moderno e sofisticado inspirado em grandes e-commerces do mercado. A estrutura foi pensada para valorizar os produtos, garantir uma navegação intuitiva e transmitir a identidade refinada da marca.
 
-🔗 Acesse o site aqui: [Vinharia Agnello](https://cp1-webdelopment.github.io/vinheria-agnello/)
+🔗 Acesse o site aqui: [Vinharia Agnello](https://cps-fiap-2025.github.io/CP-FrontEnd-Agnello/)
 
 <hr>
 
